@@ -2,9 +2,8 @@
 
 > Blostem AI Builder Hackathon "Hack to the Future" 2026 Submission
 
-![VaniNivesh Hero](https://via.placeholder.com/1200x600/0073e6/ffffff?text=VaniNivesh+AI+-+Vernacular+FD+Advisor) *(Replace with actual screenshot)*
+![VaniNivesh Hero](https://via.placeholder.com/1200x600/0073e6/ffffff?text=VaniNivesh+AI+-+Vernacular+FD+Advisor)
 
-**Live Demo:** [Add your Vercel URL here] | **Demo Video:** [Add your Loom URL here]
 
 ## 🌟 The Problem
 A user in Gorakhpur sees "Suryoday Small Finance Bank — 8.50% p.a. — 12M tenor" and abandons the page. Financial jargon and English-first interfaces are the biggest friction points for the next 500 million Indian banking users. 
@@ -35,10 +34,7 @@ A user in Gorakhpur sees "Suryoday Small Finance Bank — 8.50% p.a. — 12M ten
 - **Styling:** Tailwind CSS + shadcn/ui
 - **Animations:** Framer Motion
 - **Voice:** Web Speech API (SpeechRecognition & SpeechSynthesis)
-- **Deployment:** Vercel
 
-## 📸 Screenshots
-*(Add 3 screenshots here: 1. Home Chat Interface, 2. Hindi Response, 3. Success Receipt)*
 
 ## 🚀 How to Run Locally
 
@@ -62,5 +58,3 @@ A user in Gorakhpur sees "Suryoday Small Finance Bank — 8.50% p.a. — 12M ten
    ```
    Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 🎤 2-Minute Demo Day Pitch Script
-*"Hi everyone, I'm [Your Name]. We've built incredible infrastructure at Blostem to connect banks to fintechs, but there's a massive gap between the product and the user: Language. When my uncle in Pimpri wants to save money, '8.5% p.a. 12M Tenor' means nothing to him. So I built VaniNivesh. It's a voice-first vernacular advisor. Watch this: [Demo opening app]. I just press the mic and say 'Mere paas ek lakh rupaye hain, ek saal ke liye kahan dalu?' [Demo voice interaction]. The AI instantly parses intent, does regulatory RAG, compares live Blostem FD rates, explains the Suryoday SFB FD in simple Hindi, and gives me a one-click booking button. It's built on Next.js 15, Vercel AI, and Supabase. Thank you."*
