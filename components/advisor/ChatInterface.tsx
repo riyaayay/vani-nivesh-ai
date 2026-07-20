@@ -7,6 +7,12 @@ import { Send, Mic, Globe2, StopCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import FDBookingFlow from "./FDBookingFlow";
 
+declare global {
+  interface Window {
+    SpeechRecognition: any;
+    webkitSpeechRecognition: any;
+  }
+}
 const LANGUAGES = {
   en: { name: "English", placeholder: "Ask about Fixed Deposits...", label: "Speak in English" },
   hi: { name: "हिंदी", placeholder: "फिक्स्ड डिपॉजिट के बारे में पूछें...", label: "हिंदी में बोलें" },
@@ -38,7 +44,7 @@ export default function ChatInterface() {
 
   // Speech Recognition
   const startRecording = () => {
-    const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SpeechRecognition) return alert("Browser does not support voice input.");
     
     const recognition = new SpeechRecognition();
