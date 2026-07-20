@@ -38,7 +38,7 @@ export default function ChatInterface() {
 
   // Speech Recognition
   const startRecording = () => {
-    const SpeechRecognition = window.SpeechRecognition || (window as any).webkitSpeechRecognition;
+    const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
     if (!SpeechRecognition) return alert("Browser does not support voice input.");
     
     const recognition = new SpeechRecognition();
